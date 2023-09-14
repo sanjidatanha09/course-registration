@@ -7,6 +7,7 @@ import { useState } from 'react';
 const Home = () => {
    
     const [allActors ,setAllActors]= useState([]);
+    const [selectedActors , setSelectedActors] = useState([]);
     
     useEffect(() => {
         fetch("./data.json")
@@ -14,12 +15,27 @@ const Home = () => {
         .then((data) => setAllActors(data));
     },[]);
 
+    const handleSelectActor = (actor) => {
+        const isExist =selectedActors.find(item =>item.id ==actor.id)
+        console.log(isExist);
+
+        if(isExist){
+            return alert("already added");
+        }
+        else{
+            setSelectedActors([...selectedActors, actor]);
+
+        }
+
+
+    };
+
 
 
     return (
         <div className='container'>
             <div className='home-container'>
-               <div className='card-container'>
+                <div className='card-container'>
                     {allActors.map((actor) =>(
 
                         <div key={actor.id} className='card'>
@@ -27,7 +43,7 @@ const Home = () => {
                                 <img className='photo' src={actor.image} alt="" />
 
                             </div>
-                            <h2 className="text-2xl">{actor.course}</h2>
+                            <h2 className="">{actor.course}</h2>
                             <p>
                                 <small>{actor.Details}</small>
                             </p>
@@ -37,7 +53,7 @@ const Home = () => {
                                 <p>$#Credit:{actor.Credit}</p>
                             </div>
                             <div>
-                                <button className="card-btn">Select</button>
+                                <button onClick={() => handleSelectActor(actor)} className="card-btn">Select</button>
                             </div>
 
 
@@ -48,7 +64,7 @@ const Home = () => {
                </div>
 
                 <div className='cart'>
-                    <h1>this is cart</h1>
+                    <Cart selectedActors={selectedActors}></Cart>
                 </div>
             </div>
         </div>
