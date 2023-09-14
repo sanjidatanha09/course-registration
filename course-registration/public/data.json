@@ -5,7 +5,7 @@
         "Details":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
         "Price": 15000,
-        "Credit": "1hr"
+        "Credit": 1
        
     },
     {
@@ -14,7 +14,7 @@
         "Details":"Introduction to Algorithms uniquely combines rigor and comprehensiveness",
         "image": "https://i.ibb.co/YQgHzvL/Stan-Lee-610719480.jpg",
         "Price": 25000,
-        "Credit": "2hr"
+        "Credit": 2
        
     },
     {
@@ -23,7 +23,7 @@
         "Details": "We know that in the programming world, data is the center and everything revolves around data.",
         "image": "https://i.ibb.co/xS26VmL/download-1.jpg",
         "Price": 10000,
-        "Credit": "10hr"
+        "Credit": 5
        
     },
     {
@@ -32,7 +32,7 @@
         "Details":"Data structures are often classified by their characteristics. The following three characteristics are examples: Linear or non-linear.",
         "image": "https://i.ibb.co/9nkpDDD/MV5-BMDlh-NGY4-Y2-Mt-Mj-A5-Ny00-Zm-Nk-LTgw-ZTkt-Njll-Yjhl-Mzlh-Zj-Nk-Xk-Ey-Xk-Fqc-Gde-QXVy-MTc0-OTcx.jpg",
         "Price": 35000,
-        "Credit": "5hr"
+        "Credit": 4
        
     },
     {
@@ -41,7 +41,7 @@
         "Details":"Object-oriented programming (OOP) is a method of structuring a program by bundling related properties and behaviors into individual objects.",
         "image": "https://i.ibb.co/68dK4h5/47094270.jpg",
         "Price": 19000,
-        "Credit": "5hr"
+        "Credit": 6
        
     },
     {
@@ -50,7 +50,7 @@
         "Details":"Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications",
         "image": "https://i.ibb.co/w6cbRN4/Mark-Kassen-Tony-C-rdenas-and-Chris-Evans-cropped-1.jpg",
         "Price": 23000,
-        "Credit": "2hr"
+        "Credit": 3
        
     },
     {
@@ -59,7 +59,7 @@
         "Details":"Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power",
         "image": "https://i.ibb.co/HdwLJ9M/thor.jpg",
         "Price": 20000,
-        "Credit": "6hr"
+        "Credit": 2
        
     },
     {
@@ -68,7 +68,7 @@
         "Details":"MySQL HeatWave is a fully managed database service for transactions, real.",
         "image": "https://i.ibb.co/Fn5LVFf/shutterstock-editorial-10473054j.jpg",
         "Price": 14000,
-        "Credit": "3hr"
+        "Credit": 4
        
     },
     {
@@ -77,7 +77,7 @@
         "Details":"Problem solving is the act of defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.",
         "image": "https://i.ibb.co/58pb8GJ/gettyimages-1140241611.jpg",
         "Price": 12000,
-        "Credit": "2hr"
+        "Credit": 2
        
     }
   

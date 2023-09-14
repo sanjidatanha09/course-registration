@@ -8,6 +8,9 @@ const Home = () => {
    
     const [allActors ,setAllActors]= useState([]);
     const [selectedActors , setSelectedActors] = useState([]);
+    const  [remaining, setRemaining] = useState (0);
+    const [totalCost , setTotalCost] = useState(0);
+    const [totalPrice, setTotalPrice] = useState(0);
     
     useEffect(() => {
         fetch("./data.json")
@@ -17,12 +20,24 @@ const Home = () => {
 
     const handleSelectActor = (actor) => {
         const isExist =selectedActors.find(item =>item.id ==actor.id)
-        console.log(isExist);
+
+        let count = actor.Credit;
+        let count2 = actor.Price;
 
         if(isExist){
             return alert("already added");
         }
         else{
+            selectedActors.forEach((item) =>{
+                count = count + item.Credit;
+                count2 = count2 + item.Price;
+            })
+
+            const totalRemaining = 20 - count;
+            setTotalCost(count);
+            setRemaining(totalRemaining);
+            
+
             setSelectedActors([...selectedActors, actor]);
 
         }
@@ -49,8 +64,8 @@ const Home = () => {
                             </p>
                             <div className='info'>
                                 
-                                <p>$Price: {actor.Price}</p>
-                                <p>$#Credit:{actor.Credit}</p>
+                                <p>$Price : {actor.Price}</p>
+                                <p>$#Credit : {actor.Credit} hr</p>
                             </div>
                             <div>
                                 <button onClick={() => handleSelectActor(actor)} className="card-btn">Select</button>
@@ -64,7 +79,7 @@ const Home = () => {
                </div>
 
                 <div className='cart'>
-                    <Cart selectedActors={selectedActors}></Cart>
+                    <Cart selectedActors={selectedActors} remaining={remaining} totalCost={totalCost}></Cart>
                 </div>
             </div>
         </div>
