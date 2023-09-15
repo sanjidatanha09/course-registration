@@ -3,7 +3,7 @@
         "id": 1,
         "course": "Introduction to C programming",
         "Details":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "image": "Asset/Rectangle 2-2.png",
         "Price": 15000,
         "Credit": 2
        
@@ -12,7 +12,7 @@
         "id": 2,
         "course": "Introduction to Algorithms",
         "Details":"Introduction to Algorithms uniquely combi nes rigor.An algorithm is a procedure used for solving a problem..",
-        "image": "https://i.ibb.co/YQgHzvL/Stan-Lee-610719480.jpg",
+        "image": "Asset/Rectangle 2-3.png",
         "Price": 25000,
         "Credit": 4
        
@@ -21,7 +21,7 @@
         "id": 3,
         "course": "Introduction to C++ for DSA",
         "Details": "We know that in the programming world, data is the center and everything revolves around data.",
-        "image": "https://i.ibb.co/xS26VmL/download-1.jpg",
+        "image": "Asset/Rectangle 2-4.png",
         "Price": 10000,
         "Credit": 9
        
@@ -30,7 +30,7 @@
         "id": 4,
         "course": "Basic Data Structures",
         "Details":"Data structures are often classified by their characteristics.Linear or non-linear data structure we learn.",
-        "image": "https://i.ibb.co/9nkpDDD/MV5-BMDlh-NGY4-Y2-Mt-Mj-A5-Ny00-Zm-Nk-LTgw-ZTkt-Njll-Yjhl-Mzlh-Zj-Nk-Xk-Ey-Xk-Fqc-Gde-QXVy-MTc0-OTcx.jpg",
+        "image": "Asset/Rectangle 3.png",
         "Price": 35000,
         "Credit": 4
        
@@ -39,7 +39,7 @@
         "id": 5,
         "course": "Introduction to OOP python",
         "Details":"OOP is a method of structuring a program by bundling related properties and behaviors into individual objects .",
-        "image": "https://i.ibb.co/68dK4h5/47094270.jpg",
+        "image": "Asset/OOP.png",
         "Price": 19000,
         "Credit": 6
        
@@ -48,7 +48,7 @@
         "id": 6,
         "course": "Software Engineering",
         "Details":"Software engineering is the branch of com puter science that deals with the design, development and testing.",
-        "image": "https://i.ibb.co/w6cbRN4/Mark-Kassen-Tony-C-rdenas-and-Chris-Evans-cropped-1.jpg",
+        "image": "Asset/software.png",
         "Price": 23000,
         "Credit": 3
        
@@ -57,7 +57,7 @@
         "id": 7,
         "course": "AWS, Cloud computing",
         "Details":"Cloud computing is the demand availability of computer system resources, especially data storage and computing power",
-        "image": "https://i.ibb.co/HdwLJ9M/thor.jpg",
+        "image": "Asset/cloud.png",
         "Price": 20000,
         "Credit": 2
        
@@ -66,7 +66,7 @@
         "id": 8,
         "course": "Database (MySQL)",
         "Details":"MySQL HeatWave is a fully managed data base service for transactions, real- time analytics across data warehouses.",
-        "image": "https://i.ibb.co/Fn5LVFf/shutterstock-editorial-10473054j.jpg",
+        "image": "Asset/spl.png",
         "Price": 14000,
         "Credit": 4
        
@@ -75,7 +75,7 @@
         "id": 9,
         "course": "Problem-Solving part",
         "Details":"Problem solving is the act of defining a problem; identifying, prioritizing,selecting alternatives and implementing a solution.",
-        "image": "https://i.ibb.co/58pb8GJ/gettyimages-1140241611.jpg",
+        "image": "Asset/problem.png",
         "Price": 12000,
         "Credit": 2
        
