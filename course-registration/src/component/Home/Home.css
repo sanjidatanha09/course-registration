@@ -68,7 +68,6 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     margin-right: 200px;
-    border: 2px solid orange;
     
   
 
@@ -93,8 +92,10 @@ body {
 
 }
 .cart-total{
-    font-size: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .cart-list-item{
-    font-size: ;
+    font-size: 12px;
 }

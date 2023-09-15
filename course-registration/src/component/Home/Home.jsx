@@ -35,7 +35,7 @@ const Home = () => {
 
             const totalRemaining = 20 - count;
             
-            if(count>20){
+            if (count > 20 ){
                 return alert ('Can not add . Limit end ');
             }
 
