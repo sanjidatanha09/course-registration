@@ -12,10 +12,9 @@ body {
  .card {
     width: 250px;
     height: 400px;
-    border: 1px solid gray;
     background: white;
     border-radius: 10px;
-
+    
 }
 
 .photo {
