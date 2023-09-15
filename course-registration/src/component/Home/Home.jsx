@@ -4,6 +4,8 @@ import Cart from '../Cart/Cart';
 import "./Home.css";
 import { useState } from 'react';
 import Bookmark from "../../../public/Asset/Frame (1).svg";
+import { toast } from 'react-toastify';
+
 
 const Home = () => {
    
@@ -26,7 +28,9 @@ const Home = () => {
         let count2 = actor.Price;
 
         if(isExist){
-            return alert("already added");
+           return toast("Already Add this course");
+           
+           
         }
         else{
             selectedActors.forEach((item) =>{
@@ -37,7 +41,7 @@ const Home = () => {
             const totalRemaining = 20 - count;
             
             if (count > 20 ){
-                return alert ('Can not add . Limit end ');
+               return toast("can not add.limit end");
             }
 
             else{
