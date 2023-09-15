@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-const Cart = ({selectedActors , remaining , totalCost}) => {
+const Cart = ({selectedActors , remaining , totalCost , totalPrice}) => {
     console.log(selectedActors);
    
     return (
@@ -17,6 +17,7 @@ const Cart = ({selectedActors , remaining , totalCost}) => {
             <hr />
             <h3>Total Credit Hour:{totalCost}</h3>
             <hr />
+            <h3>Total Price:{totalPrice}</h3>
             
         </div>
     );

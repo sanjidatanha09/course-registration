@@ -34,11 +34,19 @@ const Home = () => {
             })
 
             const totalRemaining = 20 - count;
-            setTotalCost(count);
-            setRemaining(totalRemaining);
             
+            if(count>20){
+                return alert ('Can not add . Limit end ');
+            }
 
-            setSelectedActors([...selectedActors, actor]);
+            else{
+                setTotalCost(count);
+                setTotalPrice(count2);
+                setRemaining(totalRemaining);
+
+
+                setSelectedActors([...selectedActors, actor]);
+            }
 
         }
 
@@ -79,7 +87,7 @@ const Home = () => {
                </div>
 
                 <div className='cart'>
-                    <Cart selectedActors={selectedActors} remaining={remaining} totalCost={totalCost}></Cart>
+                    <Cart selectedActors={selectedActors} remaining={remaining} totalCost={totalCost} totalPrice={totalPrice}></Cart>
                 </div>
             </div>
         </div>
