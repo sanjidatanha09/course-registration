@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Cart from '../Cart/Cart';
 import "./Home.css";
 import { useState } from 'react';
+import Bookmark from "../../../public/Asset/Frame (1).svg";
 
 const Home = () => {
    
@@ -70,10 +71,11 @@ const Home = () => {
                             <p className='details'>
                                 <small >{actor.Details}</small>
                             </p>
+                            
                             <div className='info'>
                                 
-                                <p ><span className='doller'>$</span> Price : {actor.Price}</p>
-                                <p>Credit : {actor.Credit}hr</p>
+                                <p className='price'><span className='doller'>$</span> Price : {actor.Price}</p>
+                                <p className='bookmark-credit'> <img className='bookmark-img' src={Bookmark} alt="" /> Credit : {actor.Credit}hr</p>
                             </div>
                             <div>
                                 <button onClick={() => handleSelectActor(actor)} className="card-btn">Select</button>
