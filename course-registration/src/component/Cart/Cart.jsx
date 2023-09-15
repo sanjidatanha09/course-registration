@@ -6,18 +6,18 @@ const Cart = ({selectedActors , remaining , totalCost , totalPrice}) => {
    
     return (
         <div>
-            <h5>Credit hour Remaining :{remaining} hr</h5>
+            <h5 className='remaining-hour'>Credit hour Remaining:{remaining} hr</h5>
             <hr />
-            <h1>Course Name</h1>
+            <h2 className='cart-course-name'>Course Name</h2>
             
 
             {selectedActors.map((actor) =>(
-                    <li key={actor.id}>{actor.course}</li>
+                    <li className='cart-list-item' key={actor.id}>{actor.course}</li>
             ))}
             <hr />
-            <h3>Total Credit Hour:{totalCost}</h3>
+            <h3 className='cart-total'>Total Credit Hour:{totalCost}</h3>
             <hr />
-            <h3>Total Price:{totalPrice}</h3>
+            <h3 className='cart-total'>Total Price:{totalPrice}USD</h3>
             
         </div>
     );

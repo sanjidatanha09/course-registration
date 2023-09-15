@@ -3,36 +3,58 @@
 } */
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    
     background: gainsboro;
     
    
 }
+.course-regi{
+    font-size: 30px;
+    width: 1000px;
+}
 
  .card {
-    width: 250px;
-    height: 400px;
+    width: 230px;
+    height: 340px;
     background: white;
     border-radius: 10px;
+    padding: 10px;
     
 }
 
 .photo {
-    width: 180px;
+    width: 230px;
     height: 150px;
-    margin-top: 20px;
     border-radius: 10px;
     
+}
+.course-name{
+    
+    font-size:13px;
+    
+
+}
+.details{
+    font-size: 12px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 0px;
+
 }
 
 .info {
     display: flex;
     justify-content: space-between;
+    font-size:15px ;
+    
+    
 }
 
+
 .card-btn {
-    background-color: aqua;
+    background-color: #2F80ED;
     width: 100%;
+    border-radius: 8px;
 
 }
 
@@ -44,16 +66,35 @@ body {
     width: 800px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     margin-right: 200px;
+    border: 2px solid orange;
+    
   
 
 
 }
 .cart{
-    width: 250px;
-        height: 400px;
-        border: 1px solid gray;
+    width: 290px;
+        height: 340px;
+        padding-left: 15px;
         background: white;
         border-radius: 10px;
+       
+        text-align: left;
+}
+.remaining-hour{
+    font-size: 14px;
+    color: #2F80ED;
+    
+}
+.cart-course-name{
+    font-size: 16px;
+
+}
+.cart-total{
+    font-size: 10px;
+}
+.cart-list-item{
+    font-size: ;
 }

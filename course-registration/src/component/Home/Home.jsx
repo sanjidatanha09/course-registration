@@ -56,6 +56,7 @@ const Home = () => {
 
     return (
         <div className='container'>
+            <h2 className='course-regi'>Course Registration</h2>
             <div className='home-container'>
                 <div className='card-container'>
                     {allActors.map((actor) =>(
@@ -65,14 +66,14 @@ const Home = () => {
                                 <img className='photo' src={actor.image} alt="" />
 
                             </div>
-                            <h2 className="">{actor.course}</h2>
-                            <p>
-                                <small>{actor.Details}</small>
+                            <h3 className="course-name">{actor.course}</h3>
+                            <p className='details'>
+                                <small >{actor.Details}</small>
                             </p>
                             <div className='info'>
                                 
-                                <p>$Price : {actor.Price}</p>
-                                <p>$#Credit : {actor.Credit} hr</p>
+                                <p ><span className='doller'>$</span> Price : {actor.Price}</p>
+                                <p>Credit : {actor.Credit}hr</p>
                             </div>
                             <div>
                                 <button onClick={() => handleSelectActor(actor)} className="card-btn">Select</button>
