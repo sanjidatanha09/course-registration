@@ -28,7 +28,7 @@ const Home = () => {
         let count2 = actor.Price;
 
         if(isExist){
-           return toast("Already Add this course");
+           return toast("Already select this course");
            
            
         }
@@ -41,7 +41,7 @@ const Home = () => {
             const totalRemaining = 20 - count;
             
             if (count > 20 ){
-               return toast("can not add.limit end");
+               return toast("Can not add.Credit limit is over");
             }
 
             else{
